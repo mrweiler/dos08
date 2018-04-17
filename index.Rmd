@@ -1,0 +1,98 @@
+---
+title: <small>An introduction to digital open <br>research in clinical psychology</small>
+author: <small>Matthias Weiler</small>
+date: <small>18.04.2018</small>
+output:
+  revealjs::revealjs_presentation:
+    theme: black
+    center: TRUE
+    self_contained: FALSE
+    incremental: TRUE
+    reveal_plugins: ["chalkboard"]
+    reveal_options:
+      chalkboard: 
+      readonly: FALSE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# <small> What we did last time</small>
+
+----
+
+You presented your research proposals
+
+----
+
+You chose the final projects
+
+----
+
+You formed research groups
+
+----
+
+Any questions or anything to add?
+
+# <small>Last session's homework</small>
+
+----
+
+Who of you updated the <br>
+contributors list for your project?
+
+----
+
+Who of you updated your project's title?
+
+----
+
+Who of you registered your project?
+
+----
+
+Who of you started collecting data?
+
+----
+
+Any questions regarding <br>
+last time's homework?
+
+# <small>Today:<br>Prepare your final presentation / Q & A</small>
+
+----
+
+Did you face any difficulties so far?
+
+----
+
+# <small>Preview: next week</small>
+
+----
+
+On Wednesday, 25th of April
+
+----
+
+"Present your project results"
+
+# <small>Homework</small>
+
+----
+
+Start collecting data
+
+----
+
+Participate in every project
+
+----
+
+Prepare your posters for <br>
+the final presentation
+
+# <small>Any questions?</small>
+
+# <small>Thank you for your attention</small>
