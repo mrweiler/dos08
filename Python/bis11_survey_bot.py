@@ -1,4 +1,4 @@
-''' Bot to test experiment factory's bis-bas-survey
+''' Bot to test experiment factory's bis11-survey
 2018 by Matthias Weiler '''
 import datetime
 import numpy as np
@@ -17,7 +17,7 @@ def answer_likert_items(question_block, number_of_questions, number_of_options):
     """ answer likert items """
     for i in range(number_of_questions):
         answer = DRIVER.find_element_by_xpath(
-            '//label[@for="option-bis-bas-survey_%i_%i"]' % (i + question_block, np.random.choice(
+            '//label[@for="option-bis11-survey_%i_%i"]' % (i + question_block, np.random.choice(
                 number_of_options, 1)))
         answer.click()
 
@@ -40,7 +40,7 @@ print('Start experiment: %s' % START_TIME)
 DRIVER = webdriver.Chrome()
 
 # Open website
-DRIVER.get('https://expfactory-experiments.github.io/bis-bas-survey/')
+DRIVER.get('https://expfactory-experiments.github.io/bis11-survey/')
 
 # Welcome screen
 click_button("Next")
@@ -57,7 +57,7 @@ answer_likert_items(question_block=12, number_of_questions=10, number_of_options
 click_button("Next")
 
 # Survey part 3
-answer_likert_items(question_block=22, number_of_questions=4, number_of_options=4)
+answer_likert_items(question_block=22, number_of_questions=10, number_of_options=4)
 click_button("Next")
 
 # Finish survey

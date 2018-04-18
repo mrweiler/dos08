@@ -19,7 +19,7 @@ dataset <- tibble()
 for (id in id_list) {
   # import json file
   data_list <- read_json(
-    paste0("data/expfactory/", id, "_finished/bis-bas-survey-results.json"))
+    paste0("data/expfactory/", id, "_finished/bis11-survey-results.json"))
   
   # convert list to tibble
   tbl <- as_tibble(data_list)
@@ -56,8 +56,8 @@ for (id in id_list) {
   
   # add tbl to dataset
   dataset <- bind_rows(dataset, tbl)
-
+  
 }
 
 # save as csv file
-write_csv(x = dataset, path = "bis-bas-survey-results-all.csv")
+write_csv(x = dataset, path = "bis11-survey-results-all.csv")
